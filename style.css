@@ -1,0 +1,48 @@
+body{
+    background-color: #87CEEB;
+}
+
+.btn1,.btn2,.btn3{
+    display: flex;    
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+}
+
+#encode,#decode,#reset{
+    cursor: pointer;
+    border: 4px solid rgb(19, 166, 215);
+    background-color: rgba(28, 25, 25, 0.856);
+    text-align: center;
+    color: rgb(15, 239, 231);
+    font-size: 1.2rem;
+    border-radius: 15px;
+    padding: 8px;   
+    justify-content: center;
+}
+
+
+#tab1,#tab2,#tab3{   
+    font-size: 1.2rem;
+    background-color: rgb(78, 76, 76);
+    border: 2px solid black;
+    min-height: 10.4rem;
+    overflow-x: auto;
+    overflow-y: scroll;
+    color: white;
+}
+
+label{
+    font-size: 1rem;
+    color: rgb(15, 239, 231);
+}
+
+
+.form-floating>.form-control-plaintext~label::after, .form-floating>.form-control:focus~label::after, .form-floating>.form-control:not(:placeholder-shown)~label::after, .form-floating>.form-select~label::after{
+    
+    background-color: rgb(78, 76, 76);
+}
+
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label{
+    color: rgb(15, 239, 231);
+}
